@@ -1,0 +1,14 @@
+
+        struct S1;
+        struct S2;
+        struct S3;
+        struct S4;
+        struct S5;
+        struct S6;
+        struct S7;
+        struct S8;
+        
+        fn foo2423(_: S1, _: S4, _: S5) {}
+        
+        fn test2423() { foo2423(S3, S1, S3, S7, S6); }
+    
